@@ -15,7 +15,6 @@ ORDER BY
     TotalOrders DESC;
 
 -- Insight:
--- Germany, the United Kingdom and France lead in orders
--- and concentrate most of the sales activity, while 
--- Portugal shows the lowest volume, signaling a market with 
--- weak presence.
+-- Germany, the UK and France lead in orders while,
+-- Portugal has the lowest volume, signaling a market 
+-- with weak presence.
