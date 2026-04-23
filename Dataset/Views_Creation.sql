@@ -28,7 +28,7 @@ GO
 -- Analytics.vw_dim_customer
 -- Clean customer data and standardize values:
 --   - Trim extra spaces
---   - Proper-case first/last names (fixes "tRINITY", "sMITH", etc.)
+--   - Proper-case first/last names
 --   - Expand codes (M/S -> Married/Single, Y/N -> Yes/No)
 --   - Convert NULLs to 'Unknown' on descriptive fields
 -- Used for customer analysis and segmentation
@@ -80,8 +80,7 @@ GO
 
 -- =============================================================
 -- Analytics.vw_dim_product
--- Clean product data and calculate profit + margin
--- Joins subcategory and category for a flat product hierarchy
+-- Clean product data and calculate profit
 -- =============================================================
 CREATE VIEW Analytics.vw_dim_product AS
     SELECT
@@ -93,8 +92,8 @@ CREATE VIEW Analytics.vw_dim_product AS
 
          -- Profit per unit (CAST both sides BEFORE subtracting)
         CAST(ProductPrice AS DECIMAL(10, 2)) -
-        CAST(ProductCost  AS DECIMAL(10, 2)) AS ProductProfit,
-
+        CAST(ProductCost  AS DECIMAL(10, 2)) AS ProductProfit
+	FROM DwStore.dim_product;
 GO
 
 
