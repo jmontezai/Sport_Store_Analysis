@@ -1,10 +1,10 @@
 -- ========================================
 -- Database Creation
 -- ========================================
-CREATE DATABASE DW_SportStore;
+CREATE DATABASE Dw_SportStore;
 GO
 
-USE DW_SportStore;
+USE Dw_SportStore;
 GO
 
 -- ========================================
