@@ -18,8 +18,7 @@ ORDER BY
     Month;
 
 -- Insight:
--- Sales show steady growth year over year, with volumes
--- rising from 2022 to 2024. Monthly demand stays fairly
--- stable, with small peaks in late year (Oct–Nov) and a
--- slight dip in December, suggesting consistent demand
--- with mild seasonal variation.
+-- Sales grow steadily year over year, rising from
+-- 2022 to 2024. Monthly volumes stay stable, with
+-- small peaks in October–November and a slight dip
+-- in December.
