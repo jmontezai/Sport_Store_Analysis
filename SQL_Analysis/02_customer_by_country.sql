@@ -18,4 +18,4 @@ ORDER BY
 -- Germany, the United Kingdom and France hold the largest
 -- active customer base, reflecting their strength as core
 -- markets. Portugal has the smallest base, highlighting
--- untapped potential for expansion.
+-- untapped potential for expansion. 
