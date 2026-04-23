@@ -240,7 +240,7 @@ WITH (
 );
 GO
 
-BULK INSERT Store.Dact_Sales_2023
+BULK INSERT Store.Fact_Sales_2023
 FROM 'C:\Sql_Data\Sport_Store\fact_sales_2023.csv'
 WITH (
     FIRSTROW = 2,
