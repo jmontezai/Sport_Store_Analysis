@@ -15,7 +15,6 @@ ORDER BY
     TotalCustomers DESC;
 
 -- Insight:
--- Germany, the United Kingdom and France hold the largest
--- active customer base, reflecting their strength as core
--- markets. Portugal has the smallest base, highlighting
+-- Germany, the UK and France hold the largest customer
+-- base. Portugal has the smallest base, highlighting
 -- untapped potential for expansion. 
