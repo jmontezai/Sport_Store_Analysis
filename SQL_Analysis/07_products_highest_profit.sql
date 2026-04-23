@@ -16,7 +16,6 @@ ORDER BY
     TotalProfit DESC;
 
 -- Insight:
--- E-Bikes and high-end bikes dominate the top profit list,
--- with EcoRide E-Bike Purple leading at €52k. Despite lower
--- unit volumes, premium products drive the biggest margins,
--- showing where real profitability lies in the catalog.
+-- E-Bikes and premium bikes generate the highest profit,
+-- led by EcoRide E-Bike Purple at €52k, showing where
+-- the biggest margins are.
