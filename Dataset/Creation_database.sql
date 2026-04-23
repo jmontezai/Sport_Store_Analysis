@@ -10,13 +10,13 @@ GO
 -- ========================================
 -- Schema Creation
 -- ========================================
-CREATE SCHEMA DwStore;
+CREATE SCHEMA Store;
 GO
 
 -- ========================================
 -- dim_calendar
 -- ========================================
-CREATE TABLE DwStore.dim_calendar (
+CREATE TABLE Store.Dim_Calendar (
     Date DATE PRIMARY KEY
 );
 GO
@@ -24,7 +24,7 @@ GO
 -- ========================================
 -- dim_customer
 -- ========================================
-CREATE TABLE DwStore.dim_customer (
+CREATE TABLE Store.Dim_Customer (
     IDCustomer             VARCHAR(10) PRIMARY KEY,
     Prefix                 VARCHAR(10),
     FirstName              VARCHAR(100),
@@ -45,7 +45,7 @@ GO
 -- ========================================
 -- dim_product_category
 -- ========================================
-CREATE TABLE DwStore.dim_product_category (
+CREATE TABLE Store.Dim_Product_Category (
     IDProductCategory INT PRIMARY KEY,
     CategoryName      VARCHAR(50)
 );
@@ -54,7 +54,7 @@ GO
 -- ========================================
 -- dim_product_subcategory
 -- ========================================
-CREATE TABLE DwStore.dim_product_subcategory (
+CREATE TABLE Store.Dim_Product_Subcategory (
     IDProductSubcategory INT PRIMARY KEY,
     SubcategoryName      VARCHAR(50),
     IDProductCategory    INT
@@ -64,7 +64,7 @@ GO
 -- ========================================
 -- dim_product
 -- ========================================
-CREATE TABLE DwStore.dim_product (
+CREATE TABLE Store.Dim_Product (
     IDProduct            INT PRIMARY KEY,
     IDProductSubcategory INT,
     ProductSKU           VARCHAR(25),
@@ -82,7 +82,7 @@ GO
 -- ========================================
 -- dim_location
 -- ========================================
-CREATE TABLE DwStore.dim_location (
+CREATE TABLE Store.Dim_Location (
     IDLocation INT PRIMARY KEY,
     Region     VARCHAR(50),
     Country    VARCHAR(50)
@@ -92,7 +92,7 @@ GO
 -- ========================================
 -- fact_sales_2022
 -- ========================================
-CREATE TABLE DwStore.fact_sales_2022 (
+CREATE TABLE Store.Fact_Sales_2022 (
     OrderDate     DATE,
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
@@ -107,7 +107,7 @@ GO
 -- ========================================
 -- fact_sales_2023
 -- ========================================
-CREATE TABLE DwStore.fact_sales_2023 (
+CREATE TABLE Store.Fact_Sales_2023 (
     OrderDate     DATE,
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
@@ -122,7 +122,7 @@ GO
 -- ========================================
 -- fact_sales_2024
 -- ========================================
-CREATE TABLE DwStore.fact_sales_2024 (
+CREATE TABLE Store.Fact_Sales_2024 (
     OrderDate     DATE,
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
@@ -137,7 +137,7 @@ GO
 -- ========================================
 -- fact_returns_data
 -- ========================================
-CREATE TABLE DwStore.fact_returns_data (
+CREATE TABLE Store.Fact_Returns_Data (
     ReturnDate     DATE,
     IDLocation     INT,
     IDProduct      INT,
@@ -149,7 +149,7 @@ GO
 -- BULK INSERTS
 -- ========================================
 
-BULK INSERT DwStore.dim_calendar
+BULK INSERT Store.Dim_Calendar
 FROM 'C:\Sql_Data\Sport_Store\dim_calendar.csv'
 WITH (
     FIRSTROW = 2,
@@ -162,7 +162,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.dim_customer
+BULK INSERT Store.Dim_Customer
 FROM 'C:\Sql_Data\Sport_Store\dim_customer.csv'
 WITH (
     FIRSTROW = 2,
@@ -175,7 +175,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.dim_product_category
+BULK INSERT Store.Dim_Product_Category
 FROM 'C:\Sql_Data\Sport_Store\dim_product_category.csv'
 WITH (
     FIRSTROW = 2,
@@ -188,7 +188,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.dim_product_subcategory
+BULK INSERT Store.Dim_Product_Subcategory
 FROM 'C:\Sql_Data\Sport_Store\dim_product_subcategory.csv'
 WITH (
     FIRSTROW = 2,
@@ -201,7 +201,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.dim_product
+BULK INSERT Store.Dim_Product
 FROM 'C:\Sql_Data\Sport_Store\dim_product.csv'
 WITH (
     FIRSTROW = 2,
@@ -214,7 +214,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.dim_location
+BULK INSERT Store.Dim_Location
 FROM 'C:\Sql_Data\Sport_Store\dim_location.csv'
 WITH (
     FIRSTROW = 2,
@@ -227,7 +227,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.fact_sales_2022
+BULK INSERT Store.Fact_Sales_2022
 FROM 'C:\Sql_Data\Sport_Store\fact_sales_2022.csv'
 WITH (
     FIRSTROW = 2,
@@ -240,7 +240,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.fact_sales_2023
+BULK INSERT Store.Dact_Sales_2023
 FROM 'C:\Sql_Data\Sport_Store\fact_sales_2023.csv'
 WITH (
     FIRSTROW = 2,
@@ -253,7 +253,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.fact_sales_2024
+BULK INSERT Store.Fact_Sales_2024
 FROM 'C:\Sql_Data\Sport_Store\fact_sales_2024.csv'
 WITH (
     FIRSTROW = 2,
@@ -266,7 +266,7 @@ WITH (
 );
 GO
 
-BULK INSERT DwStore.fact_returns_data
+BULK INSERT Store.Fact_Returns_Data
 FROM 'C:\Sql_Data\Sport_Store\fact_returns_data.csv'
 WITH (
     FIRSTROW = 2,
