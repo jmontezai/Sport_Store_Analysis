@@ -1,6 +1,6 @@
 -- =============================================================
 -- Create schema to store analytical views
--- Separates raw data (DwStore) from transformed data (Analytics)
+-- Separates raw data (Store) from transformed data (Analytics)
 -- =============================================================
 USE Dw_SportStore;
 GO
@@ -60,16 +60,11 @@ CREATE VIEW Analytics.Vw_Dim_Customer AS
         CAST(AnnualIncome AS DECIMAL(10, 2)) AS AnnualIncome,
         CAST(TotalChildren AS INT) AS TotalChildren,
         EducationLevel,
-        
+
         -- Occupation
         CASE
-            WHEN Occupation = 'N/A' THEN 'Unknown'
-            WHEN Occupation = 'Professional' THEN 'Professional'
-            WHEN Occupation = 'Clerical' THEN 'Clerical'
-            WHEN Occupation = 'Manual' THEN 'Manual'
-            WHEN Occupation = 'Management' THEN 'Management'
-            WHEN Occupation = 'Skilled Manual' THEN 'Skilled Manual'
-            ELSE 'Unknown'
+            WHEN Occupation IN ('N/A', '') OR Occupation IS NULL THEN 'Unknown'
+            ELSE Occupation
         END AS Occupation,
 
         -- Home ownership
@@ -186,7 +181,7 @@ GO
 
 -- =============================================================
 -- Analytics.Vw_Fact_Returns
--- Exposes returns data for return rate analysis
+-- Exposes returns data with Return_Year for time-based analysis
 -- =============================================================
 CREATE VIEW Analytics.Vw_Fact_Returns AS
     SELECT
