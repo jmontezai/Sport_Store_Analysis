@@ -33,7 +33,7 @@ CREATE TABLE DwStore.dim_customer (
     MaritalStatus          VARCHAR(25),
     Gender                 VARCHAR(25),
     EmailAddress           VARCHAR(150),
-    AnnualIncome           DECIMAL(12,2),
+    AnnualIncome           VARCHAR(20),
     TotalChildren          INT,
     EducationLevel         VARCHAR(50),
     Occupation             VARCHAR(50),
@@ -74,8 +74,8 @@ CREATE TABLE DwStore.dim_product (
     ProductColor         VARCHAR(50),
     ProductSize          VARCHAR(25),
     ProductStyle         VARCHAR(50),
-    ProductCost          DECIMAL(10,2),
-    ProductPrice         DECIMAL(10,2)
+    ProductCost          VARCHAR(20),
+    ProductPrice         VARCHAR(20)
 );
 GO
 
@@ -86,21 +86,6 @@ CREATE TABLE DwStore.dim_location (
     IDLocation INT PRIMARY KEY,
     Region     VARCHAR(50),
     Country    VARCHAR(50)
-);
-GO
-
--- ========================================
--- fact_sales_data
--- ========================================
-CREATE TABLE DwStore.fact_sales_data (
-    OrderDate     DATE,
-    OrderNumber   VARCHAR(25),
-    IDProduct     INT,
-    IDLocation    INT,
-    OrderLineItem INT,
-    OrderQuantity INT,
-    PaymentMethod VARCHAR(50),
-    IDCustomer    VARCHAR(10)
 );
 GO
 
