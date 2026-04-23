@@ -97,8 +97,8 @@ CREATE TABLE DwStore.fact_sales_2022 (
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
     IDLocation    INT,
-    OrderLineItem INT,
-    OrderQuantity INT,
+    OrderLineItem VARCHAR(10),
+    OrderQuantity VARCHAR(10),
     PaymentMethod VARCHAR(50),
     IDCustomer    VARCHAR(10)
 );
@@ -112,8 +112,8 @@ CREATE TABLE DwStore.fact_sales_2023 (
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
     IDLocation    INT,
-    OrderLineItem INT,
-    OrderQuantity INT,
+    OrderLineItem VARCHAR(10),
+    OrderQuantity VARCHAR(10),
     PaymentMethod VARCHAR(50),
     IDCustomer    VARCHAR(10)
 );
@@ -127,8 +127,8 @@ CREATE TABLE DwStore.fact_sales_2024 (
     OrderNumber   VARCHAR(25),
     IDProduct     INT,
     IDLocation    INT,
-    OrderLineItem INT,
-    OrderQuantity INT,
+    OrderLineItem VARCHAR(10),
+    OrderQuantity VARCHAR(10),
     PaymentMethod VARCHAR(50),
     IDCustomer    VARCHAR(10)
 );
@@ -141,7 +141,7 @@ CREATE TABLE DwStore.fact_returns_data (
     ReturnDate     DATE,
     IDLocation     INT,
     IDProduct      INT,
-    ReturnQuantity INT
+    ReturnQuantity VARCHAR(10)
 );
 GO
 
@@ -278,4 +278,3 @@ WITH (
     TABLOCK
 );
 GO
-
