@@ -16,11 +16,11 @@ GO
 CREATE VIEW Analytics.Vw_Dim_Calendar AS
     SELECT
         Date,
-        YEAR(Date)              AS Year,
-        DATEPART(QUARTER, Date) AS Quarter,
-        MONTH(Date)             AS Month,
-        DATENAME(MONTH, Date)   AS MonthName,
-        DATEPART(DAY, Date)     AS DayNumber
+        YEAR(Date) AS [Year],
+        DATEPART(QUARTER, Date) AS [Quarter],
+        MONTH(Date) AS [Month],
+        DATENAME(MONTH, Date) AS [MonthName],
+        DATEPART(DAY, Date) AS DayNumber
     FROM Store.Dim_Calendar;
 GO
 
@@ -58,7 +58,7 @@ CREATE VIEW Analytics.Vw_Dim_Customer AS
 		END AS Gender,
         EmailAddress,
         CAST(AnnualIncome AS DECIMAL(10, 2)) AS AnnualIncome,
-        CAST(TotalChildren AS INT) AS TotalChildren,
+        TotalChildren,
         EducationLevel,
 
         -- Occupation
