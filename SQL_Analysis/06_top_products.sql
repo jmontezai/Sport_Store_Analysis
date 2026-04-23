@@ -15,7 +15,6 @@ ORDER BY
     TotalUnitsSold DESC;
 
 -- Insight:
--- The top seller is the CompressionSock (926 units),
--- followed by the ReflectRun Vest and CoolMesh Top.
--- Small accessories and apparel dominate the top 10,
--- reflecting strong demand for everyday sport essentials.
+-- CompressionSock leads with 926 units, followed by
+-- ReflectRun Vest and CoolMesh Top. Small accessories
+-- dominate the top sellers.
