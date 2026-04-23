@@ -29,7 +29,7 @@ GO
 -- Clean customer data and standardize values:
 --   - Trim extra spaces
 --   - Proper-case first/last names
---   - Expand codes (M/S -> Married/Single, Y/N -> Yes/No)
+--   - Expand codes (M/S -> Married/Single, Y/N -> Yes/No), etc
 --   - Convert NULLs to 'Unknown' on descriptive fields
 -- Used for customer analysis and segmentation
 -- =============================================================
@@ -46,22 +46,22 @@ CREATE VIEW Analytics.Vw_Dim_Customer AS
 
         -- Marital status
         CASE
-            WHEN MaritalStatus = 'M' THEN 'Married'
-            WHEN MaritalStatus = 'S' THEN 'Single'
-            ELSE 'Unknown'
-        END AS MaritalStatus,
+   			WHEN MaritalStatus IN ('M', 'Married', 'Maried', 'Marryed') THEN 'Married'
+    		WHEN MaritalStatus IN ('S', 'Single', 'Singel', 'Sngle')    THEN 'Single'
+    		ELSE 'Unknown'
+		END AS MaritalStatus
 
         -- Gender
         CASE
-            WHEN Gender = 'M' THEN 'Male'
-            WHEN Gender = 'F' THEN 'Female'
-            ELSE 'Unknown'
-        END AS Gender,
+    		WHEN LTRIM(RTRIM(Gender)) IN ('M', 'Male')   THEN 'Male'
+    		WHEN LTRIM(RTRIM(Gender)) IN ('F', 'Female') THEN 'Female'
+    		ELSE 'Unknown'
+		END AS Gender,
         EmailAddress,
         CAST(AnnualIncome AS DECIMAL(10, 2)) AS AnnualIncome,
         CAST(TotalChildren AS INT) AS TotalChildren,
         ISNULL(EducationLevel, 'Unknown') AS EducationLevel,
-        ISNULL(Occupation,     'Unknown') AS Occupation,
+        ISNULL(Occupation, 'Unknown') AS Occupation,
 
         -- Home ownership
         CASE
