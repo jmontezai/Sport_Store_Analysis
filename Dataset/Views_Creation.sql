@@ -30,7 +30,6 @@ GO
 --   - Trim extra spaces
 --   - Proper-case first/last names
 --   - Expand codes (M/S -> Married/Single, Y/N -> Yes/No), etc
---   - Convert NULLs to 'Unknown' on descriptive fields
 -- Used for customer analysis and segmentation
 -- =============================================================
 CREATE VIEW Analytics.Vw_Dim_Customer AS
@@ -60,8 +59,18 @@ CREATE VIEW Analytics.Vw_Dim_Customer AS
         EmailAddress,
         CAST(AnnualIncome AS DECIMAL(10, 2)) AS AnnualIncome,
         CAST(TotalChildren AS INT) AS TotalChildren,
-        ISNULL(EducationLevel, 'Unknown') AS EducationLevel,
-        ISNULL(Occupation, 'Unknown') AS Occupation,
+        EducationLevel,
+        
+        -- Occupation
+        CASE
+            WHEN Occupation = 'N/A' THEN 'Unknown'
+            WHEN Occupation = 'Professional' THEN 'Professional'
+            WHEN Occupation = 'Clerical' THEN 'Clerical'
+            WHEN Occupation = 'Manual' THEN 'Manual'
+            WHEN Occupation = 'Management' THEN 'Management'
+            WHEN Occupation = 'Skilled Manual' THEN 'Skilled Manual'
+            ELSE 'Unknown'
+        END AS Occupation,
 
         -- Home ownership
         CASE
