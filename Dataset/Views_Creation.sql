@@ -49,7 +49,7 @@ CREATE VIEW Analytics.Vw_Dim_Customer AS
    			WHEN MaritalStatus IN ('M', 'Married', 'Maried', 'Marryed') THEN 'Married'
     		WHEN MaritalStatus IN ('S', 'Single', 'Singel', 'Sngle')    THEN 'Single'
     		ELSE 'Unknown'
-		END AS MaritalStatus
+		END AS MaritalStatus,
 
         -- Gender
         CASE
