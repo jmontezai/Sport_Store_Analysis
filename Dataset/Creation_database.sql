@@ -1,3 +1,169 @@
+-- ========================================
+-- Database Creation
+-- ========================================
+CREATE DATABASE DW_SportStore;
+GO
+
+USE DW_SportStore;
+GO
+
+-- ========================================
+-- Schema Creation
+-- ========================================
+CREATE SCHEMA DwStore;
+GO
+
+-- ========================================
+-- dim_calendar
+-- ========================================
+CREATE TABLE DwStore.dim_calendar (
+    Date DATE PRIMARY KEY
+);
+GO
+
+-- ========================================
+-- dim_customer
+-- ========================================
+CREATE TABLE DwStore.dim_customer (
+    IDCustomer             VARCHAR(10) PRIMARY KEY,
+    Prefix                 VARCHAR(10),
+    FirstName              VARCHAR(100),
+    LastName               VARCHAR(100),
+    BirthDate              DATE,
+    MaritalStatus          VARCHAR(25),
+    Gender                 VARCHAR(25),
+    EmailAddress           VARCHAR(150),
+    AnnualIncome           DECIMAL(12,2),
+    TotalChildren          INT,
+    EducationLevel         VARCHAR(50),
+    Occupation             VARCHAR(50),
+    HomeOwner              VARCHAR(10),
+    PreferredPaymentMethod VARCHAR(50)
+);
+GO
+
+-- ========================================
+-- dim_product_category
+-- ========================================
+CREATE TABLE DwStore.dim_product_category (
+    IDProductCategory INT PRIMARY KEY,
+    CategoryName      VARCHAR(50)
+);
+GO
+
+-- ========================================
+-- dim_product_subcategory
+-- ========================================
+CREATE TABLE DwStore.dim_product_subcategory (
+    IDProductSubcategory INT PRIMARY KEY,
+    SubcategoryName      VARCHAR(50),
+    IDProductCategory    INT
+);
+GO
+
+-- ========================================
+-- dim_product
+-- ========================================
+CREATE TABLE DwStore.dim_product (
+    IDProduct            INT PRIMARY KEY,
+    IDProductSubcategory INT,
+    ProductSKU           VARCHAR(25),
+    ProductName          VARCHAR(150),
+    ModelName            VARCHAR(100),
+    ProductDescription   VARCHAR(500),
+    ProductColor         VARCHAR(50),
+    ProductSize          VARCHAR(25),
+    ProductStyle         VARCHAR(50),
+    ProductCost          DECIMAL(10,2),
+    ProductPrice         DECIMAL(10,2)
+);
+GO
+
+-- ========================================
+-- dim_location
+-- ========================================
+CREATE TABLE DwStore.dim_location (
+    IDLocation INT PRIMARY KEY,
+    Region     VARCHAR(50),
+    Country    VARCHAR(50)
+);
+GO
+
+-- ========================================
+-- fact_sales_data
+-- ========================================
+CREATE TABLE DwStore.fact_sales_data (
+    OrderDate     DATE,
+    OrderNumber   VARCHAR(25),
+    IDProduct     INT,
+    IDLocation    INT,
+    OrderLineItem INT,
+    OrderQuantity INT,
+    PaymentMethod VARCHAR(50),
+    IDCustomer    VARCHAR(10)
+);
+GO
+
+-- ========================================
+-- fact_sales_2022
+-- ========================================
+CREATE TABLE DwStore.fact_sales_2022 (
+    OrderDate     DATE,
+    OrderNumber   VARCHAR(25),
+    IDProduct     INT,
+    IDLocation    INT,
+    OrderLineItem INT,
+    OrderQuantity INT,
+    PaymentMethod VARCHAR(50),
+    IDCustomer    VARCHAR(10)
+);
+GO
+
+-- ========================================
+-- fact_sales_2023
+-- ========================================
+CREATE TABLE DwStore.fact_sales_2023 (
+    OrderDate     DATE,
+    OrderNumber   VARCHAR(25),
+    IDProduct     INT,
+    IDLocation    INT,
+    OrderLineItem INT,
+    OrderQuantity INT,
+    PaymentMethod VARCHAR(50),
+    IDCustomer    VARCHAR(10)
+);
+GO
+
+-- ========================================
+-- fact_sales_2024
+-- ========================================
+CREATE TABLE DwStore.fact_sales_2024 (
+    OrderDate     DATE,
+    OrderNumber   VARCHAR(25),
+    IDProduct     INT,
+    IDLocation    INT,
+    OrderLineItem INT,
+    OrderQuantity INT,
+    PaymentMethod VARCHAR(50),
+    IDCustomer    VARCHAR(10)
+);
+GO
+
+-- ========================================
+-- fact_returns_data
+-- ========================================
+CREATE TABLE DwStore.fact_returns_data (
+    ReturnDate     DATE,
+    IDLocation     INT,
+    IDProduct      INT,
+    ReturnQuantity INT
+);
+GO
+
+-- ========================================
+-- BULK INSERTS
+-- ========================================
+
 BULK INSERT DwStore.dim_calendar
 FROM 'C:\Sql_Data\Sport_Store\dim_calendar.csv'
 WITH (
@@ -127,3 +293,4 @@ WITH (
     TABLOCK
 );
 GO
+
