@@ -1,5 +1,6 @@
 -- ========================================
 -- Database Creation
+-- Creates the data warehouse for the SportStore project
 -- ========================================
 CREATE DATABASE Dw_SportStore;
 GO
@@ -9,12 +10,14 @@ GO
 
 -- ========================================
 -- Schema Creation
+-- 'Store' holds the raw data loaded from CSV files
 -- ========================================
 CREATE SCHEMA Store;
 GO
 
 -- ========================================
--- dim_calendar
+-- Dim_Calendar
+-- Date dimension for time-based analysis
 -- ========================================
 CREATE TABLE Store.Dim_Calendar (
     Date DATE PRIMARY KEY
@@ -22,7 +25,8 @@ CREATE TABLE Store.Dim_Calendar (
 GO
 
 -- ========================================
--- dim_customer
+-- Dim_Customer
+-- Customer profile data (demographics and contacts)
 -- ========================================
 CREATE TABLE Store.Dim_Customer (
     IDCustomer             VARCHAR(10) PRIMARY KEY,
@@ -43,7 +47,8 @@ CREATE TABLE Store.Dim_Customer (
 GO
 
 -- ========================================
--- dim_product_category
+-- Dim_Product_Category
+-- Top-level product categories
 -- ========================================
 CREATE TABLE Store.Dim_Product_Category (
     IDProductCategory INT PRIMARY KEY,
@@ -52,7 +57,8 @@ CREATE TABLE Store.Dim_Product_Category (
 GO
 
 -- ========================================
--- dim_product_subcategory
+-- Dim_Product_Subcategory
+-- Product subcategories linked to categories
 -- ========================================
 CREATE TABLE Store.Dim_Product_Subcategory (
     IDProductSubcategory INT PRIMARY KEY,
@@ -62,7 +68,8 @@ CREATE TABLE Store.Dim_Product_Subcategory (
 GO
 
 -- ========================================
--- dim_product
+-- Dim_Product
+-- Product catalog with cost, price and attributes
 -- ========================================
 CREATE TABLE Store.Dim_Product (
     IDProduct            INT PRIMARY KEY,
@@ -80,7 +87,8 @@ CREATE TABLE Store.Dim_Product (
 GO
 
 -- ========================================
--- dim_location
+-- Dim_Location
+-- Geographic dimension (region and country)
 -- ========================================
 CREATE TABLE Store.Dim_Location (
     IDLocation INT PRIMARY KEY,
@@ -90,7 +98,8 @@ CREATE TABLE Store.Dim_Location (
 GO
 
 -- ========================================
--- fact_sales_2022
+-- Fact_Sales_2022
+-- Sales transactions recorded during 2022
 -- ========================================
 CREATE TABLE Store.Fact_Sales_2022 (
     OrderDate     DATE,
@@ -105,7 +114,8 @@ CREATE TABLE Store.Fact_Sales_2022 (
 GO
 
 -- ========================================
--- fact_sales_2023
+-- Fact_Sales_2023
+-- Sales transactions recorded during 2023
 -- ========================================
 CREATE TABLE Store.Fact_Sales_2023 (
     OrderDate     DATE,
@@ -120,7 +130,8 @@ CREATE TABLE Store.Fact_Sales_2023 (
 GO
 
 -- ========================================
--- fact_sales_2024
+-- Fact_Sales_2024
+-- Sales transactions recorded during 2024
 -- ========================================
 CREATE TABLE Store.Fact_Sales_2024 (
     OrderDate     DATE,
@@ -135,7 +146,8 @@ CREATE TABLE Store.Fact_Sales_2024 (
 GO
 
 -- ========================================
--- fact_returns_data
+-- Fact_Returns_Data
+-- Product returns recorded across all years
 -- ========================================
 CREATE TABLE Store.Fact_Returns_Data (
     ReturnDate     DATE,
@@ -147,6 +159,7 @@ GO
 
 -- ========================================
 -- BULK INSERTS
+-- Loads raw CSV data into the Store schema tables
 -- ========================================
 
 BULK INSERT Store.Dim_Calendar
