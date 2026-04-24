@@ -1,144 +1,141 @@
 # 📊 Sales Analysis — Sport Store
 
-## 🚀 Sumário Executivo
-Este projeto destaca três pontos-chave:
+## 🚀 Executive Summary
+This project highlights three key points:
 
-- Forte **concentração de receita na categoria Equipment**, impulsionada por produtos premium como a EcoRide E-Bike e a RoadRacer 700  
-- **Crescimento consistente** tanto na receita como na base de clientes entre 2022 e 2024  
-- Uma **base de clientes estável e diversificada**, com uma distribuição equilibrada entre géneros  
+- Strong **revenue concentration in the Equipment category**, driven by premium products such as the EcoRide E-Bike and RoadRacer 700  
+- **Consistent growth** in both revenue and customer base from 2022 to 2024  
+- A **healthy margin (~46%)** and a controlled **return rate of 2.72%**, indicating strong operational efficiency  
 
-👉 Estes resultados indicam um negócio em expansão, mas também revelam uma **dependência de um pequeno grupo de produtos de alto valor**.
+👉 These findings point to a growing and well-managed business, but also reveal a **dependency on a small group of high-value products**.
 
-
+---
 
 ## 📌 Project Overview
-Este projeto analisa o desempenho de vendas, produtos e clientes de uma loja de artigos desportivos ao longo de 2022, 2023 e 2024.
+This project analyzes sales, product, and customer performance for a sports retail store between 2022 and 2024.
 
-O objetivo foi desenvolver uma análise end-to-end, desde a **transformação de dados em SQL** até à **criação de um dashboard interativo em Power BI**, focado em insights de negócio.
+The goal was to build an end-to-end analytics solution, from **data transformation in SQL** to the creation of an **interactive Power BI dashboard**, focused on business insights.
 
-
+---
 
 ## 🎯 Business Objectives
-- Analisar tendências de receita e lucro ao longo do tempo  
-- Identificar produtos e categorias com melhor desempenho  
-- Compreender segmentos de clientes e comportamento de compra  
-- Monitorizar métricas-chave:
-  - Receita  
-  - Lucro  
-  - Encomendas  
-  - Unidades vendidas  
-  - Taxa de devolução  
+- Analyze revenue and profit trends over time  
+- Identify top-performing products and categories  
+- Understand customer segments and purchasing behavior  
+- Monitor key metrics:
+  - Revenue  
+  - Profit  
+  - Orders  
+  - Units sold  
+  - Return rate  
 
-
+---
 
 ## 🛠️ Tools & Technologies
-- **SQL Server** → limpeza, transformação e modelação de dados  
-- **Power BI** → visualização, dashboard interativo e storytelling  
+- **SQL Server** → data cleaning, transformation, and modeling  
+- **Power BI** → data visualization and dashboard development  
 
-
+---
 
 ## 🧠 Data Preparation (SQL)
-Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) para separar dados operacionais de dados analíticos.
+A dedicated **Analytics** schema was created on top of the raw data (**Store**) to separate operational data from analytics-ready data.
 
-### Principais transformações:
-- Limpeza e padronização de dados de cliente (nome, género, estado civil, etc.)  
-- Expansão de valores codificados (ex: *M → Married*, *Y → Yes*)  
-- Cálculo de métricas como **Product Profit (Preço − Custo)**  
-- Unificação das vendas (2022–2024) numa única view:  
-  `Vw_Fact_Sales` com coluna `Sales_Year`  
-- Enriquecimento temporal:
-  - Ano  
-  - Trimestre  
-  - Mês  
-  - Nome do mês  
+### Key steps:
+- Cleaned and standardized customer data (name, gender, marital status, etc.)  
+- Translated coded values (e.g., *M → Married*, *Y → Yes*)  
+- Calculated derived metrics such as **Product Profit (Price − Cost)**  
+- Combined yearly sales tables (2022–2024) into a single view:  
+  `Vw_Fact_Sales` with a `Sales_Year` column  
+- Added time attributes:
+  - Year  
+  - Quarter  
+  - Month  
+  - Month Name  
 
-👉 Resultado: dataset estruturado e otimizado para análise de negócio.
+👉 Result: a structured dataset optimized for business analysis.
 
-
+---
 
 ## 📊 Dashboard
 
 ### Overview
-- KPIs principais: Receita, Lucro, Encomendas, Taxa de devolução  
-- Tendência de receita ao longo do tempo  
-- Encomendas por categoria  
-- Top produtos com taxa de devolução  
-- KPIs mensais com comparação ao mês anterior  
+- Key KPIs: Revenue, Profit, Orders, Return Rate  
+- Revenue trend over time  
+- Orders by product category  
+- Top products with return rate indicators  
+- Monthly KPIs with comparison to previous month  
 
 ### Product Analysis
-- Top produtos por receita, lucro e unidades vendidas  
-- Distribuição de receita por categoria  
-- Tendência de performance ao longo do tempo  
-- Destaque do produto com maior receita  
+- Top products by revenue, profit, and units sold  
+- Revenue distribution by category  
+- Product performance trends over time  
+- Highlight card for top-performing product  
 
 ### Customer Analysis
-- Clientes únicos e receita por cliente  
-- Crescimento de clientes ao longo do tempo  
-- Top 100 clientes por receita  
-- Análise por segmento de rendimento  
-- Métodos de pagamento  
-- Distribuição por género  
+- Unique customers and revenue per customer  
+- Customer growth over time  
+- Top 100 customers by revenue  
+- Orders by income segment  
+- Payment methods  
+- Gender distribution  
 
-
+---
 
 ## 📸 Dashboard Preview
 
 ### Overview
-<!-- adicionar imagem aqui -->
 ![Overview](Images/overview.png)
 
 ### Product Analysis
-<!-- adicionar imagem aqui -->
 ![Product Analysis](Images/product.png)
 
 ### Customer Analysis
-<!-- adicionar imagem aqui -->
 ![Customer Analysis](Images/customer.png)
 
-
+---
 
 ## 💡 Key Insights
 
-📈 A receita cresceu de forma consistente entre 2022 e 2024, atingindo **€4,6M**, indicando uma trajetória de expansão sólida  
+📈 Revenue grew consistently from 2022 to 2024, reaching **€4.6M**, indicating strong business expansion  
 
-🚴 A categoria **Equipment domina a receita**, evidenciando forte dependência de produtos premium e potencial risco de concentração  
+🚴 The **Equipment category dominates revenue**, highlighting reliance on high-value products and potential concentration risk  
 
-🎯 Um pequeno grupo de produtos gera a maioria das vendas, reforçando a necessidade de diversificação do portefólio  
+🎯 A small group of products generates most of the sales, reinforcing the need for portfolio diversification  
 
-👥 O segmento **Average (Médio)** lidera em volume e receita, funcionando como principal motor de crescimento  
-➡️ O segmento **High (Alto)** contribui significativamente para valor por cliente  
+👥 The **Average income segment** leads in both customer volume and revenue  
+➡️ The **High-income segment** contributes strongly to higher value per customer  
 
-💳 O **Cartão de Crédito** é o método de pagamento dominante, seguido pelo PayPal  
+💳 **Credit Card** is the dominant payment method, followed by PayPal  
 
-🔁 A taxa de devolução é baixa (**2,72%**), embora produtos como **Leggings** apresentem maior incidência  
+🔁 The overall return rate is low (**2.72%**), although products like **Leggings** show higher return levels  
 
-
+---
 
 ## ⚠️ Limitations
-- Dataset simulado (dados sintéticos)  
-- Não inclui fatores externos (marketing, promoções, sazonalidade)  
-- Dados de devolução sem detalhe de motivo  
+- Dataset is simulated (synthetic data)  
+- Does not include external factors (marketing, promotions, seasonality)  
+- Return data does not include reasons  
 
-
+---
 
 ## 🚀 Next Steps
-- Implementar segmentação de clientes (RFM Analysis)  
-- Analisar rentabilidade e margem por produto  
-- Explorar performance geográfica (país/região)  
-- Desenvolver modelos de previsão para receita futura  
+- Implement customer segmentation (RFM analysis)  
+- Analyze profitability and margins per product  
+- Explore geographic performance (region/country)  
+- Develop revenue forecasting models  
 
-
+---
 
 ## 📂 Project Structure
 
-Dataset/  
-SQL_Analysis/  
-Power_BI/  
-├── SportStore_Sales_Analysis.pbix  
-└── Images/  
-README.md
+    Dataset/
+    SQL_Analysis/
+    Power_BI/
+    ├── SportStore_Sales_Analysis.pbix
+    └── Images/
+    README.md
 
-
+---
 
 ## 👤 Author
-Projeto desenvolvido por João com foco em análise de dados end-to-end e tomada de decisão baseada em dados.
+Project developed by João, focused on end-to-end data analysis and data-driven decision making.
