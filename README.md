@@ -84,13 +84,13 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 ## 📸 Dashboard Preview
 
 ### Overview
-![Overview](Images/overview.png)
+![Overview](Power_BI/Images/01_Overview.png)
 
 ### Product Analysis
-![Product Analysis](Images/product.png)
+![Product Analysis](Power_BI/Images/02_Product_Analysis.png)
 
 ### Customer Analysis
-![Customer Analysis](Images/customer.png)
+![Customer Analysis](Power_BI/Images/03_Customer_Analysis.png)
 
 
 
