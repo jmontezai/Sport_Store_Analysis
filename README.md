@@ -116,7 +116,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 - Does not include external factors (marketing, promotions, seasonality)  
 - Return data does not include reasons  
 
----
+
 
 ## 🚀 Next Steps
 - Implement customer segmentation (RFM analysis)  
