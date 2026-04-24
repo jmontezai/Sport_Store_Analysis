@@ -1,13 +1,13 @@
 # 📊 Sales Analysis — Sport Store
 
-## 🚀 Executive Summary
-A análise revela três pontos-chave:
+## 🚀 Sumário Executivo
+Este projeto destaca três pontos-chave:
 
-- Forte **concentração de receita na categoria Equipment**, com produtos premium (ex: EcoRide E-Bike, RoadRacer 700) a liderar vendas e lucro  
-- **Crescimento consistente** de receita e clientes entre 2022 e 2024  
-- **Base de clientes estável e diversificada**, com distribuição equilibrada entre géneros  
+- Forte **concentração de receita na categoria Equipment**, impulsionada por produtos premium como a EcoRide E-Bike e a RoadRacer 700  
+- **Crescimento consistente** tanto na receita como na base de clientes entre 2022 e 2024  
+- Uma **base de clientes estável e diversificada**, com uma distribuição equilibrada entre géneros  
 
-👉 Estes resultados indicam um negócio em expansão, mas com **dependência relevante de um conjunto reduzido de produtos de alto valor**.
+👉 Estes resultados indicam um negócio em expansão, mas também revelam uma **dependência de um pequeno grupo de produtos de alto valor**.
 
 
 
