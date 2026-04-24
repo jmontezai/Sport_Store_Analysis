@@ -9,14 +9,14 @@ This project highlights three key points:
 
 👉 These findings point to a growing and well-managed business, but also reveal a **dependency on a small group of high-value products**.
 
----
+
 
 ## 📌 Project Overview
 This project analyzes sales, product, and customer performance for a sports retail store between 2022 and 2024.
 
 The goal was to build an end-to-end analytics solution, from **data transformation in SQL** to the creation of an **interactive Power BI dashboard**, focused on business insights.
 
----
+
 
 ## 🎯 Business Objectives
 - Analyze revenue and profit trends over time  
@@ -29,13 +29,13 @@ The goal was to build an end-to-end analytics solution, from **data transformati
   - Units sold  
   - Return rate  
 
----
+
 
 ## 🛠️ Tools & Technologies
 - **SQL Server** → data cleaning, transformation, and modeling  
 - **Power BI** → data visualization and dashboard development  
 
----
+
 
 ## 🧠 Data Preparation (SQL)
 A dedicated **Analytics** schema was created on top of the raw data (**Store**) to separate operational data from analytics-ready data.
@@ -54,7 +54,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 👉 Result: a structured dataset optimized for business analysis.
 
----
+
 
 ## 📊 Dashboard
 
@@ -79,7 +79,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 - Payment methods  
 - Gender distribution  
 
----
+
 
 ## 📸 Dashboard Preview
 
@@ -92,7 +92,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 ### Customer Analysis
 ![Customer Analysis](Images/customer.png)
 
----
+
 
 ## 💡 Key Insights
 
@@ -109,7 +109,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 🔁 The overall return rate is low (**2.72%**), although products like **Leggings** show higher return levels  
 
----
+
 
 ## ⚠️ Limitations
 - Dataset is simulated (synthetic data)  
@@ -124,7 +124,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 - Explore geographic performance (region/country)  
 - Develop revenue forecasting models  
 
----
+
 
 ## 📂 Project Structure
 
@@ -135,7 +135,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
     └── Images/
     README.md
 
----
+
 
 ## 👤 Author
 Project developed by João, focused on end-to-end data analysis and data-driven decision making.
