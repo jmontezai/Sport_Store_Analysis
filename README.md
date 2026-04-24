@@ -9,14 +9,14 @@ A análise revela três pontos-chave:
 
 👉 Estes resultados indicam um negócio em expansão, mas com **dependência relevante de um conjunto reduzido de produtos de alto valor**.
 
----
+
 
 ## 📌 Project Overview
 Este projeto analisa o desempenho de vendas, produtos e clientes de uma loja de artigos desportivos ao longo de 2022, 2023 e 2024.
 
 O objetivo foi desenvolver uma análise end-to-end, desde a **transformação de dados em SQL** até à **criação de um dashboard interativo em Power BI**, focado em insights de negócio.
 
----
+
 
 ## 🎯 Business Objectives
 - Analisar tendências de receita e lucro ao longo do tempo  
@@ -29,13 +29,13 @@ O objetivo foi desenvolver uma análise end-to-end, desde a **transformação de
   - Unidades vendidas  
   - Taxa de devolução  
 
----
+
 
 ## 🛠️ Tools & Technologies
 - **SQL Server** → limpeza, transformação e modelação de dados  
 - **Power BI** → visualização, dashboard interativo e storytelling  
 
----
+
 
 ## 🧠 Data Preparation (SQL)
 Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) para separar dados operacionais de dados analíticos.
@@ -54,7 +54,7 @@ Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) p
 
 👉 Resultado: dataset estruturado e otimizado para análise de negócio.
 
----
+
 
 ## 📊 Dashboard
 
@@ -79,7 +79,7 @@ Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) p
 - Métodos de pagamento  
 - Distribuição por género  
 
----
+
 
 ## 📸 Dashboard Preview
 
@@ -95,7 +95,7 @@ Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) p
 <!-- adicionar imagem aqui -->
 ![Customer Analysis](Images/customer.png)
 
----
+
 
 ## 💡 Key Insights
 
@@ -112,14 +112,14 @@ Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) p
 
 🔁 A taxa de devolução é baixa (**2,72%**), embora produtos como **Leggings** apresentem maior incidência  
 
----
+
 
 ## ⚠️ Limitations
 - Dataset simulado (dados sintéticos)  
 - Não inclui fatores externos (marketing, promoções, sazonalidade)  
 - Dados de devolução sem detalhe de motivo  
 
----
+
 
 ## 🚀 Next Steps
 - Implementar segmentação de clientes (RFM Analysis)  
@@ -127,7 +127,7 @@ Foi criado um esquema dedicado **Analytics** sobre os dados brutos (**Store**) p
 - Explorar performance geográfica (país/região)  
 - Desenvolver modelos de previsão para receita futura  
 
----
+
 
 ## 📂 Project Structure
 
@@ -138,7 +138,7 @@ Power_BI/
 └── Images/  
 README.md
 
----
+
 
 ## 👤 Author
 Projeto desenvolvido por João com foco em análise de dados end-to-end e tomada de decisão baseada em dados.
