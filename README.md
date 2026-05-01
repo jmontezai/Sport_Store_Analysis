@@ -1,20 +1,20 @@
 # 📊 Sales Analysis — Sport Store
 
 ## 🚀 Executive Summary
-This project highlights three key points:
+This analysis reveals three key insights:
 
-- Strong **revenue concentration in the Equipment category**, driven by premium products such as the EcoRide E-Bike and RoadRacer 700  
-- **Consistent growth** in both revenue and customer base from 2022 to 2024  
-- A **healthy margin (~46%)** and a controlled **return rate of 2.72%**, indicating strong operational efficiency  
+- Most revenue comes from the Equipment category, especially from products like the EcoRide E-Bike and RoadRacer 700  
+- Revenue and customer base have grown from 2022 to 2024  
+- The business has a strong margin (~46%) and a low return rate (2.72%)  
 
-👉 These findings point to a growing and well-managed business, but also reveal a **dependency on a small group of high-value products**.
+👉 Overall, the business is growing and well managed, but depends a lot on a small number of high-value products.
 
 
 
 ## 📌 Project Overview
-This project analyzes sales, product, and customer performance for a sports retail store between 2022 and 2024.
+This project looks at sales, products, and customer performance for a sports retail store between 2022 and 2024.
 
-The goal was to build an end-to-end analytics solution, from **data transformation in SQL** to the creation of an **interactive Power BI dashboard**, focused on business insights.
+The goal was to build an end-to-end analytics solution, from data transformation in SQL to the creation of an interactive Power BI dashboard, focused on business insights.
 
 
 
@@ -32,8 +32,8 @@ The goal was to build an end-to-end analytics solution, from **data transformati
 
 
 ## 🛠️ Tools & Technologies
-- **SQL Server** → data cleaning, transformation, and modeling  
-- **Power BI** → data visualization and dashboard development  
+- SQL Server → data cleaning, transformation, and modeling  
+- Power BI → data visualization and dashboard development  
 
 
 
@@ -42,8 +42,8 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 ### Key steps:
 - Cleaned and standardized customer data (name, gender, marital status, etc.)  
-- Translated coded values (e.g., *M → Married*, *Y → Yes*)  
-- Calculated derived metrics such as **Product Profit (Price − Cost)**  
+- Translated coded values (e.g., M → Married, Y → Yes)  
+- Calculated derived metrics such as Product Profit (Price − Cost)  
 - Combined yearly sales tables (2022–2024) into a single view:  
   `Vw_Fact_Sales` with a `Sales_Year` column  
 - Added time attributes:
@@ -52,7 +52,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
   - Month  
   - Month Name  
 
-👉 Result: a structured dataset optimized for business analysis.
+👉 Result: a structured dataset ready for analysis in Power BI.
 
 
 
@@ -73,7 +73,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 ### Customer Analysis
 - Unique customers and revenue per customer  
-- Customer growth over time  
+- Customer growth over time (with a noticeable drop in December)  
 - Top 100 customers by revenue  
 - Orders by income segment  
 - Payment methods  
@@ -96,18 +96,17 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 ## 💡 Key Insights
 
-📈 Revenue grew consistently from 2022 to 2024, reaching **€4.6M**, indicating strong business expansion  
+📈 Revenue has grown from 2022 to 2024, reaching €4.6M, showing strong business growth  
 
-🚴 The **Equipment category dominates revenue**, highlighting reliance on high-value products and potential concentration risk  
+🚴 The Equipment category generates most of the revenue, driven by high-value products like bikes  
 
-🎯 A small group of products generates most of the sales, reinforcing the need for portfolio diversification  
+🎯 A small number of products generate a large share of revenue, showing dependency on key items  
 
-👥 The **Average income segment** leads in both customer volume and revenue  
-➡️ The **High-income segment** contributes strongly to higher value per customer  
+👥 The Average income segment generates most of the customer volume and revenue, followed by High-income customers  
 
-💳 **Credit Card** is the dominant payment method, followed by PayPal  
+💳 Credit Card is the most used payment method, followed by PayPal  
 
-🔁 The overall return rate is low (**2.72%**), although products like **Leggings** show higher return levels  
+🔁 The overall return rate is low (2.72%), although some products like Leggings have higher return levels  
 
 
 
@@ -121,8 +120,8 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 ## 🚀 Next Steps
 - Implement customer segmentation (RFM analysis)  
 - Analyze profitability and margins per product  
-- Explore geographic performance (region/country)  
-- Develop revenue forecasting models  
+- Explore geographic performance  
+- Build revenue forecasting models  
 
 
 
@@ -133,6 +132,7 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
     Power_BI/
     ├── SportStore_Sales_Analysis.pbix
     └── Images/
+    Docs/
     README.md
 
 
