@@ -2,7 +2,7 @@
 -- Create schema to store analytical views
 -- Separates raw data (Store) from transformed data (Analytics)
 -- =============================================================
-USE Dw_SportStore;
+USE SportStore_Analysis;
 GO
 
 CREATE SCHEMA Analytics;
