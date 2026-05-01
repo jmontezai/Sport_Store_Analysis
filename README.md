@@ -132,7 +132,6 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
     Power_BI/
     ├── SportStore_Sales_Analysis.pbix
     └── Images/
-    Docs/
     README.md
 
 
