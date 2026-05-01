@@ -2,10 +2,10 @@
 -- Database Creation
 -- Creates the data warehouse for the SportStore project
 -- ========================================
-CREATE DATABASE Dw_SportStore;
+CREATE DATABASE SportStore_Analysis;
 GO
 
-USE Dw_SportStore;
+USE SportStore_Analysis;
 GO
 
 -- ========================================
