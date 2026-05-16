@@ -61,9 +61,10 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 ### Overview
 - Key KPIs: Revenue, Profit, Orders, Return Rate  
 - Revenue trend over time  
-- Orders by product category  
-- Top products with return rate indicators  
-- Monthly KPIs with comparison to previous month  
+- Revenue by product category
+- Annual revenue growth — 2022 to 2024
+- Revenue by country
+- Monthly KPIs with comparison to previous month
 
 ### Product Analysis
 - Top products by revenue, profit, and units sold  
