@@ -1,0 +1,277 @@
+IDProduct,IDProductSubcategory,ProductSKU,ProductName,ModelName,ProductDescription,ProductColor,ProductSize,ProductStyle,ProductCost,ProductPrice
+1,1,VELO-W0,Velocity Pro - White,Velocity Pro,Lightweight running shoe with responsive cushioning.,White,0,U,71.27,130.35
+2,1,VELO-T0,Velocity Pro - Teal,Velocity Pro,Lightweight running shoe with responsive cushioning.,Teal,0,U,75.78,130.28
+3,1,VELO-G0,Velocity Pro - Green,Velocity Pro,Lightweight running shoe with responsive cushioning.,Green,0,W,64.99,126.63
+4,1,VELO-G0-1,Velocity Pro - Grey,Velocity Pro,Lightweight running shoe with responsive cushioning.,Grey,0,M,65.68,126.33
+5,1,CLOU-G0,CloudRun Elite - Grey,CloudRun Elite,Premium cloud-cushioned running shoe for long distances.,Grey,0,U,88.06,172.16
+6,1,CLOU-G0-1,CloudRun Elite - Green,CloudRun Elite,Premium cloud-cushioned running shoe for long distances.,Green,0,U,98.83,165.39
+7,1,CLOU-P0,CloudRun Elite - Purple,CloudRun Elite,Premium cloud-cushioned running shoe for long distances.,Purple,0,U,89.59,178.29
+8,1,SPEE-O0,SpeedStrike - Orange,SpeedStrike,Competition racing flat for speed workouts.,Orange,0,W,57.83,111
+9,1,SPEE-B0,SpeedStrike - Black,SpeedStrike,Competition racing flat for speed workouts.,Black,0,U,55.26,106.21
+10,1,SPEE-Y0,SpeedStrike - Yellow,SpeedStrike,Competition racing flat for speed workouts.,Yellow,0,W,60.68,112.74
+11,1,EASY-O0,EasyPace - Orange,EasyPace,Daily trainer with extra support and durability.,Orange,0,M,46.96,87.55
+12,1,EASY-W0,EasyPace - White,EasyPace,Daily trainer with extra support and durability.,White,0,W,50.01,89.89
+13,1,EASY-B0,EasyPace - Black,EasyPace,Daily trainer with extra support and durability.,Black,0,W,47.43,93.15
+14,2,TRAI-B0,TrailMaster GTX - Blue,TrailMaster GTX,Waterproof Gore-Tex hiking boot for all terrain.,Blue,0,U,84,159.66
+15,2,TRAI-W0,TrailMaster GTX - White,TrailMaster GTX,Waterproof Gore-Tex hiking boot for all terrain.,White,0,W,82.98,152.67
+16,2,TRAI-O0,TrailMaster GTX - Orange,TrailMaster GTX,Waterproof Gore-Tex hiking boot for all terrain.,Orange,0,M,88.89,161.67
+17,2,SUMM-B0,Summit Peak - Black,Summit Peak,High-ankle boot for mountain trekking.,Black,0,W,115.22,194.7
+18,2,SUMM-N0,Summit Peak - Navy,Summit Peak,High-ankle boot for mountain trekking.,Navy,0,W,94.63,182.66
+19,2,PATH-W0,PathFinder Lite - White,PathFinder Lite,Lightweight hiking shoe for day hikes.,White,0,U,51.61,97.75
+20,2,PATH-R0,PathFinder Lite - Red,PathFinder Lite,Lightweight hiking shoe for day hikes.,Red,0,M,54.24,102.24
+21,2,PATH-P0,PathFinder Lite - Pink,PathFinder Lite,Lightweight hiking shoe for day hikes.,Pink,0,W,57.58,99.68
+22,3,STRI-T0,StrikerX FG - Teal,StrikerX FG,Firm ground football boot with textured upper.,Teal,0,M,46.45,86.18
+23,3,STRI-O0,StrikerX FG - Orange,StrikerX FG,Firm ground football boot with textured upper.,Orange,0,M,48.37,86.86
+24,3,STRI-B0,StrikerX FG - Black,StrikerX FG,Firm ground football boot with textured upper.,Black,0,U,49.07,84.28
+25,3,PHAN-W0,Phantom Touch - White,Phantom Touch,Soft-touch football boot for control players.,White,0,M,71.24,124.28
+26,3,PHAN-B0,Phantom Touch - Black,Phantom Touch,Soft-touch football boot for control players.,Black,0,M,67.44,123.64
+27,3,PHAN-N0,Phantom Touch - Navy,Phantom Touch,Soft-touch football boot for control players.,Navy,0,W,67.75,125.52
+28,3,BLIT-Y0,Blitz Speed AG - Yellow,Blitz Speed AG,Artificial grass boot with speed frame.,Yellow,0,U,44.16,76.19
+29,3,BLIT-B0,Blitz Speed AG - Blue,Blitz Speed AG,Artificial grass boot with speed frame.,Blue,0,M,38.27,71.3
+30,4,FLEX-R0,FlexTrain 360 - Red,FlexTrain 360,Versatile gym training shoe with flat sole.,Red,0,U,38.9,69.77
+31,4,FLEX-T0,FlexTrain 360 - Teal,FlexTrain 360,Versatile gym training shoe with flat sole.,Teal,0,M,37.94,67.97
+32,4,FLEX-O0,FlexTrain 360 - Orange,FlexTrain 360,Versatile gym training shoe with flat sole.,Orange,0,M,35.68,66.55
+33,4,POWE-O0,PowerLift Pro - Orange,PowerLift Pro,Weightlifting shoe with raised heel.,Orange,0,W,61.72,102.94
+34,4,POWE-Y0,PowerLift Pro - Yellow,PowerLift Pro,Weightlifting shoe with raised heel.,Yellow,0,W,61.79,104.83
+35,4,CROS-P0,CrossFit Fury - Purple,CrossFit Fury,Cross-training shoe for HIIT and functional fitness.,Purple,0,W,49.3,86.07
+36,4,CROS-O0,CrossFit Fury - Orange,CrossFit Fury,Cross-training shoe for HIIT and functional fitness.,Orange,0,U,51.78,89.57
+37,4,CROS-Y0,CrossFit Fury - Yellow,CrossFit Fury,Cross-training shoe for HIIT and functional fitness.,Yellow,0,W,46.68,86.91
+38,5,MUDG-Y0,MudGrip XT - Yellow,MudGrip XT,Aggressive trail shoe for muddy conditions.,Yellow,0,U,68.52,118.19
+39,5,MUDG-R0,MudGrip XT - Red,MudGrip XT,Aggressive trail shoe for muddy conditions.,Red,0,W,60.08,118.39
+40,5,MUDG-P0,MudGrip XT - Pink,MudGrip XT,Aggressive trail shoe for muddy conditions.,Pink,0,U,56.27,111.02
+41,5,ROCK-R0,RockRunner - Red,RockRunner,Technical trail shoe with rock plate protection.,Red,0,U,65.06,127.46
+42,5,ROCK-P0,RockRunner - Purple,RockRunner,Technical trail shoe with rock plate protection.,Purple,0,W,69.52,125.89
+43,6,RECO-B0,RecoverSlide - Blue,RecoverSlide,Post-workout recovery slide sandal.,Blue,0,W,16.05,29.23
+44,6,RECO-Y0,RecoverSlide - Yellow,RecoverSlide,Post-workout recovery slide sandal.,Yellow,0,M,17,29.22
+45,6,RECO-B0-1,RecoverSlide - Black,RecoverSlide,Post-workout recovery slide sandal.,Black,0,M,17.13,30.29
+46,6,AQUA-G0,AquaGrip - Grey,AquaGrip,Water-friendly sport sandal with drainage.,Grey,0,M,21.64,41.66
+47,6,AQUA-N0,AquaGrip - Navy,AquaGrip,Water-friendly sport sandal with drainage.,Navy,0,W,21.17,38.17
+48,7,DRYF-OL,DryFit Essential - Orange - L,DryFit Essential,Moisture-wicking performance t-shirt.,Orange,L,U,13.85,25.68
+49,7,DRYF-BS,DryFit Essential - Black - S,DryFit Essential,Moisture-wicking performance t-shirt.,Black,S,U,12.54,24.6
+50,7,DRYF-NM,DryFit Essential - Navy - M,DryFit Essential,Moisture-wicking performance t-shirt.,Navy,M,M,11.38,24.35
+51,7,DRYF-OM,DryFit Essential - Orange - M,DryFit Essential,Moisture-wicking performance t-shirt.,Orange,M,U,12.09,23.84
+52,7,DRYF-PM,DryFit Essential - Purple - M,DryFit Essential,Moisture-wicking performance t-shirt.,Purple,M,W,12.83,25.09
+53,7,DRYF-NL,DryFit Essential - Navy - L,DryFit Essential,Moisture-wicking performance t-shirt.,Navy,L,M,12.91,25.31
+54,7,COTT-BM,Cotton Classic - Black - M,Cotton Classic,Soft cotton training t-shirt.,Black,M,M,10.25,19.15
+55,7,COTT-TL,Cotton Classic - Teal - L,Cotton Classic,Soft cotton training t-shirt.,Teal,L,U,10.21,19.81
+56,7,COTT-PM,Cotton Classic - Purple - M,Cotton Classic,Soft cotton training t-shirt.,Purple,M,U,9.26,19.62
+57,7,COTT-BXL,Cotton Classic - Black - XL,Cotton Classic,Soft cotton training t-shirt.,Black,XL,U,10.12,19.52
+58,7,COTT-BL,Cotton Classic - Black - L,Cotton Classic,Soft cotton training t-shirt.,Black,L,W,9.6,20.18
+59,7,COMP-BL,Compression Pro - Black - L,Compression Pro,Tight-fit compression t-shirt for performance.,Black,L,M,16.63,34.71
+60,7,COMP-GXL,Compression Pro - Green - XL,Compression Pro,Tight-fit compression t-shirt for performance.,Green,XL,W,19.25,36.34
+61,7,COMP-BS,Compression Pro - Black - S,Compression Pro,Tight-fit compression t-shirt for performance.,Black,S,M,17.51,35.46
+62,7,COMP-GL,Compression Pro - Green - L,Compression Pro,Tight-fit compression t-shirt for performance.,Green,L,M,15.93,35.34
+63,8,FLEX-GXL,"FlexRun 5"" - Grey - XL","FlexRun 5""",Lightweight 5-inch running shorts with liner.,Grey,XL,U,13.48,28.95
+64,8,FLEX-GS,"FlexRun 5"" - Grey - S","FlexRun 5""",Lightweight 5-inch running shorts with liner.,Grey,S,M,14.23,31.23
+65,8,FLEX-GL,"FlexRun 5"" - Grey - L","FlexRun 5""",Lightweight 5-inch running shorts with liner.,Grey,L,U,16.89,31.43
+66,8,FLEX-YM,"FlexRun 5"" - Yellow - M","FlexRun 5""",Lightweight 5-inch running shorts with liner.,Yellow,M,W,14.72,29.46
+67,8,FLEX-GM,"FlexRun 5"" - Grey - M","FlexRun 5""",Lightweight 5-inch running shorts with liner.,Grey,M,U,14.88,31.41
+68,8,CARG-PL,Cargo Training - Purple - L,Cargo Training,Durable training shorts with pockets.,Purple,L,U,18.84,35.28
+69,8,CARG-WS,Cargo Training - White - S,Cargo Training,Durable training shorts with pockets.,White,S,M,18.28,34.43
+70,8,CARG-PM,Cargo Training - Purple - M,Cargo Training,Durable training shorts with pockets.,Purple,M,M,16.44,35.39
+71,8,CARG-YS,Cargo Training - Yellow - S,Cargo Training,Durable training shorts with pockets.,Yellow,S,W,18.2,33.95
+72,8,SWIM-OS,SwimTech - Orange - S,SwimTech,Quick-dry swim shorts.,Orange,S,W,12.94,28.32
+73,8,SWIM-NXL,SwimTech - Navy - XL,SwimTech,Quick-dry swim shorts.,Navy,XL,U,12.98,27.79
+74,8,SWIM-OXL,SwimTech - Orange - XL,SwimTech,Quick-dry swim shorts.,Orange,XL,U,14.81,29.08
+75,8,SWIM-RS,SwimTech - Red - S,SwimTech,Quick-dry swim shorts.,Red,S,U,14.09,29.19
+76,9,POWE-BXL,PowerStretch - Blue - XL,PowerStretch,High-waist compression leggings.,Blue,XL,U,20.29,44.53
+77,9,POWE-GXL,PowerStretch - Green - XL,PowerStretch,High-waist compression leggings.,Green,XL,U,20.69,45.26
+78,9,POWE-WM,PowerStretch - White - M,PowerStretch,High-waist compression leggings.,White,M,W,22.54,44.75
+79,9,POWE-GM,PowerStretch - Grey - M,PowerStretch,High-waist compression leggings.,Grey,M,M,22.63,42.87
+80,9,FLEX-OM,FlexFlow - Orange - M,FlexFlow,Lightweight breathable leggings for yoga.,Orange,M,W,20.25,39.93
+81,9,FLEX-GM-1,FlexFlow - Grey - M,FlexFlow,Lightweight breathable leggings for yoga.,Grey,M,U,22.65,41.65
+82,9,FLEX-RM,FlexFlow - Red - M,FlexFlow,Lightweight breathable leggings for yoga.,Red,M,U,19.51,39.09
+83,9,FLEX-OL,FlexFlow - Orange - L,FlexFlow,Lightweight breathable leggings for yoga.,Orange,L,W,18.86,41.81
+84,9,THER-PL,ThermoTight - Pink - L,ThermoTight,Thermal winter running leggings.,Pink,L,U,29.22,56.49
+85,9,THER-GL,ThermoTight - Green - L,ThermoTight,Thermal winter running leggings.,Green,L,M,24.07,53.19
+86,9,THER-TS,ThermoTight - Teal - S,ThermoTight,Thermal winter running leggings.,Teal,S,W,25.62,55.09
+87,10,WARM-YM,WarmUp Hoodie - Yellow - M,WarmUp Hoodie,Fleece-lined training hoodie.,Yellow,M,U,25.99,51.57
+88,10,WARM-WS,WarmUp Hoodie - White - S,WarmUp Hoodie,Fleece-lined training hoodie.,White,S,U,25.55,51.48
+89,10,WARM-RM,WarmUp Hoodie - Red - M,WarmUp Hoodie,Fleece-lined training hoodie.,Red,M,M,26.9,50.44
+90,10,WARM-YS,WarmUp Hoodie - Yellow - S,WarmUp Hoodie,Fleece-lined training hoodie.,Yellow,S,W,25.44,49.7
+91,10,TECH-BL,TechFleece Zip - Black - L,TechFleece Zip,Full-zip tech fleece hoodie.,Black,L,U,37.03,71.99
+92,10,TECH-BS,TechFleece Zip - Black - S,TechFleece Zip,Full-zip tech fleece hoodie.,Black,S,U,32.93,70.59
+93,10,TECH-OM,TechFleece Zip - Orange - M,TechFleece Zip,Full-zip tech fleece hoodie.,Orange,M,W,34.52,66.75
+94,11,STOR-RS,StormShield - Red - S,StormShield,Waterproof running jacket with hood.,Red,S,W,39.35,86.12
+95,11,STOR-RM,StormShield - Red - M,StormShield,Waterproof running jacket with hood.,Red,M,U,42.49,90.75
+96,11,STOR-WS,StormShield - White - S,StormShield,Waterproof running jacket with hood.,White,S,U,47.5,92.49
+97,11,WIND-PL,WindBreaker Lite - Purple - L,WindBreaker Lite,Ultralight packable wind jacket.,Purple,L,U,30.89,62.67
+98,11,WIND-NM,WindBreaker Lite - Navy - M,WindBreaker Lite,Ultralight packable wind jacket.,Navy,M,U,27.58,58.17
+99,11,WIND-NS,WindBreaker Lite - Navy - S,WindBreaker Lite,Ultralight packable wind jacket.,Navy,S,U,31.3,61.99
+100,11,PUFF-NS,PuffDown 700 - Navy - S,PuffDown 700,700-fill down insulated jacket.,Navy,S,U,75.78,156.66
+101,11,PUFF-NL,PuffDown 700 - Navy - L,PuffDown 700,700-fill down insulated jacket.,Navy,L,M,79.49,145.32
+102,11,PUFF-YS,PuffDown 700 - Yellow - S,PuffDown 700,700-fill down insulated jacket.,Yellow,S,M,79.72,152.9
+103,11,SOFT-PS,SoftShell Pro - Pink - S,SoftShell Pro,Stretchy softshell jacket for hiking.,Pink,S,M,47.44,100.53
+104,11,SOFT-PM,SoftShell Pro - Pink - M,SoftShell Pro,Stretchy softshell jacket for hiking.,Pink,M,W,54.77,104.69
+105,12,HIGH-X0,HighImpact Pro,HighImpact Pro,Maximum support sports bra for running.,0,0,0,17.47,38
+106,12,LOWI-X0,LowImpact Yoga,LowImpact Yoga,Light support bra for yoga and pilates.,0,0,0,16.51,30.33
+107,13,LAPS-PM,LapSwim Jammer - Pink - M,LapSwim Jammer,Chlorine-resistant competition jammer.,Pink,M,W,16.91,35.38
+108,13,LAPS-GS,LapSwim Jammer - Green - S,LapSwim Jammer,Chlorine-resistant competition jammer.,Green,S,M,15.43,33.75
+109,13,LAPS-NS,LapSwim Jammer - Navy - S,LapSwim Jammer,Chlorine-resistant competition jammer.,Navy,S,W,18.75,34.18
+110,13,PROS-X0,ProSwim Suit,ProSwim Suit,One-piece competition swimsuit.,0,0,0,24.31,46.76
+111,13,BEAC-RS,Beach Board Short - Red - S,Beach Board Short,Casual surf board shorts.,Red,S,U,14.19,29.98
+112,13,BEAC-OM,Beach Board Short - Orange - M,Beach Board Short,Casual surf board shorts.,Orange,M,M,14.98,31.17
+113,13,BEAC-BS,Beach Board Short - Black - S,Beach Board Short,Casual surf board shorts.,Black,S,M,14.41,30.65
+114,14,THER-OM,ThermoBase Top - Orange - M,ThermoBase Top,Merino wool base layer top.,Orange,M,U,24.94,50.51
+115,14,THER-OL,ThermoBase Top - Orange - L,ThermoBase Top,Merino wool base layer top.,Orange,L,M,25.71,52.09
+116,14,THER-PL-1,ThermoBase Top - Purple - L,ThermoBase Top,Merino wool base layer top.,Purple,L,U,22.58,47.61
+117,14,THER-WL,ThermoBase Bottom - White - L,ThermoBase Bottom,Merino wool base layer bottom.,White,L,U,20.61,44.91
+118,14,THER-OM-1,ThermoBase Bottom - Orange - M,ThermoBase Bottom,Merino wool base layer bottom.,Orange,M,M,23.19,45.63
+119,14,THER-NS,ThermoBase Bottom - Navy - S,ThermoBase Bottom,Merino wool base layer bottom.,Navy,S,W,23.8,43.52
+120,14,COOL-BM,CoolMesh Top - Black - M,CoolMesh Top,Cooling mesh base layer for summer.,Black,M,W,17.83,34.55
+121,14,COOL-BM-1,CoolMesh Top - Black - M,CoolMesh Top,Cooling mesh base layer for summer.,Black,M,M,17.5,35.91
+122,15,CLAS-BS,ClassicTrack Set - Blue - S,ClassicTrack Set,Full tracksuit jacket and pants set.,Blue,S,M,31.96,66.41
+123,15,CLAS-PS,ClassicTrack Set - Pink - S,ClassicTrack Set,Full tracksuit jacket and pants set.,Pink,S,U,29.96,65.56
+124,15,CLAS-PM,ClassicTrack Set - Pink - M,ClassicTrack Set,Full tracksuit jacket and pants set.,Pink,M,U,36.2,66.47
+125,15,SLIM-BL,SlimFit Track - Blue - L,SlimFit Track,Modern slim-fit tracksuit.,Blue,L,U,42.43,77.54
+126,15,SLIM-GM,SlimFit Track - Grey - M,SlimFit Track,Modern slim-fit tracksuit.,Grey,M,U,39.61,76.33
+127,15,SLIM-RS,SlimFit Track - Red - S,SlimFit Track,Modern slim-fit tracksuit.,Red,S,W,44.97,82.58
+128,16,BREA-PM,BreatheFree Tank - Purple - M,BreatheFree Tank,Perforated training tank top.,Purple,M,W,10.09,22.09
+129,16,BREA-GL,BreatheFree Tank - Green - L,BreatheFree Tank,Perforated training tank top.,Green,L,M,11.5,23.07
+130,16,BREA-YS,BreatheFree Tank - Yellow - S,BreatheFree Tank,Perforated training tank top.,Yellow,S,M,11.8,23.99
+131,16,BREA-GXL,BreatheFree Tank - Green - XL,BreatheFree Tank,Perforated training tank top.,Green,XL,U,11.44,23.31
+132,16,RACE-X0,Racerback Tank,Racerback Tank,Racerback style gym tank.,0,0,0,11.88,24.61
+133,17,INSU-GM,InsulateVest - Grey - M,InsulateVest,Lightweight insulated gilet.,Grey,M,M,33.94,70.25
+134,17,INSU-PL,InsulateVest - Purple - L,InsulateVest,Lightweight insulated gilet.,Purple,L,M,32.63,67.38
+135,17,INSU-GM-1,InsulateVest - Grey - M,InsulateVest,Lightweight insulated gilet.,Grey,M,W,32.99,67.82
+136,17,REFL-PS,ReflectRun Vest - Pink - S,ReflectRun Vest,Hi-vis reflective running vest.,Pink,S,W,14.73,29.09
+137,17,REFL-PS-1,ReflectRun Vest - Pink - S,ReflectRun Vest,Hi-vis reflective running vest.,Pink,S,M,15.62,28.58
+138,18,EXPL-G0,Explorer 2P - Green,Explorer 2P,2-person dome tent - 3-season.,Green,0,0,111.5,184.52
+139,18,EXPL-T0,Explorer 2P - Teal,Explorer 2P,2-person dome tent - 3-season.,Teal,0,0,111.89,182.8
+140,18,ALPI-Y0,Alpine 3P - Yellow,Alpine 3P,3-person alpine tent - 4-season.,Yellow,0,0,201.05,344.72
+141,18,ALPI-P0,Alpine 3P - Purple,Alpine 3P,3-person alpine tent - 4-season.,Purple,0,0,205.86,326.69
+142,18,ULTR-Y0,UltraLite 1P - Yellow,UltraLite 1P,Ultralight 1-person backpacking tent.,Yellow,0,0,169.59,270.42
+143,19,DAYH-Y0,DayHike 25L - Yellow,DayHike 25L,25-liter day hiking backpack.,Yellow,0,0,35.73,60.1
+144,19,DAYH-N0,DayHike 25L - Navy,DayHike 25L,25-liter day hiking backpack.,Navy,0,0,34.9,61.44
+145,19,DAYH-P0,DayHike 25L - Purple,DayHike 25L,25-liter day hiking backpack.,Purple,0,0,36.41,57.13
+146,19,TREK-T0,TrekPack 50L - Teal,TrekPack 50L,50-liter trekking backpack with frame.,Teal,0,0,77.58,130.49
+147,19,TREK-Y0,TrekPack 50L - Yellow,TrekPack 50L,50-liter trekking backpack with frame.,Yellow,0,0,76.78,130.93
+148,19,GYMP-O0,GymPack 20L - Orange,GymPack 20L,Compact 20-liter gym backpack.,Orange,0,0,23.49,38.84
+149,19,GYMP-R0,GymPack 20L - Red,GymPack 20L,Compact 20-liter gym backpack.,Red,0,0,24.8,41.59
+150,19,GYMP-W0,GymPack 20L - White,GymPack 20L,Compact 20-liter gym backpack.,White,0,0,25.08,38.92
+151,20,COMF-P0,ComfortSleep 0°C - Purple,ComfortSleep 0°C,Synthetic sleeping bag rated to 0°C.,Purple,0,0,48.79,86.5
+152,20,COMF-P0-1,ComfortSleep 0°C - Pink,ComfortSleep 0°C,Synthetic sleeping bag rated to 0°C.,Pink,0,0,52.72,88.21
+153,20,DOWN-Y0,DownDream -10°C - Yellow,DownDream -10°C,Down sleeping bag rated to -10°C.,Yellow,0,0,121.3,209.9
+154,20,DOWN-T0,DownDream -10°C - Teal,DownDream -10°C,Down sleeping bag rated to -10°C.,Teal,0,0,113.53,199.5
+155,21,GRIP-T0,GripFlow Mat - Teal,GripFlow Mat,Non-slip 6mm yoga mat.,Teal,0,0,17.17,30.36
+156,21,GRIP-B0,GripFlow Mat - Black,GripFlow Mat,Non-slip 6mm yoga mat.,Black,0,0,16.81,28.7
+157,21,GRIP-G0,GripFlow Mat - Green,GripFlow Mat,Non-slip 6mm yoga mat.,Green,0,0,18.92,29.73
+158,21,GRIP-P0,GripFlow Mat - Pink,GripFlow Mat,Non-slip 6mm yoga mat.,Pink,0,0,16.97,28.81
+159,21,TRAV-B0,TravelMat Thin - Black,TravelMat Thin,Foldable 3mm travel yoga mat.,Black,0,0,13.9,24.26
+160,21,TRAV-R0,TravelMat Thin - Red,TravelMat Thin,Foldable 3mm travel yoga mat.,Red,0,0,16.87,26.15
+161,21,TRAV-Y0,TravelMat Thin - Yellow,TravelMat Thin,Foldable 3mm travel yoga mat.,Yellow,0,0,16.02,25.92
+162,22,HEXG-X0,HexGrip 5kg,HexGrip 5kg,Rubber hex dumbbell - 5kg pair.,0,0,0,19.22,31.13
+163,22,HEXG-X0-1,HexGrip 10kg,HexGrip 10kg,Rubber hex dumbbell - 10kg pair.,0,0,0,31.08,50.1
+164,22,HEXG-X0-2,HexGrip 15kg,HexGrip 15kg,Rubber hex dumbbell - 15kg pair.,0,0,0,37.62,66.73
+165,22,ADJU-X0,Adjustable Set,Adjustable Set,Adjustable dumbbell set 2-20kg.,0,0,0,81.73,140.45
+166,23,POWE-N0,PowerBand Light - Navy,PowerBand Light,Light resistance loop band.,Navy,0,0,6.24,10.3
+167,23,POWE-G0,PowerBand Light - Grey,PowerBand Light,Light resistance loop band.,Grey,0,0,6.06,10.02
+168,23,POWE-Y0-1,PowerBand Light - Yellow,PowerBand Light,Light resistance loop band.,Yellow,0,0,6.01,9.54
+169,23,POWE-Y0-2,PowerBand Medium - Yellow,PowerBand Medium,Medium resistance loop band.,Yellow,0,0,8,12.95
+170,23,POWE-P0,PowerBand Medium - Pink,PowerBand Medium,Medium resistance loop band.,Pink,0,0,7.87,12.39
+171,23,POWE-B0,PowerBand Medium - Black,PowerBand Medium,Medium resistance loop band.,Black,0,0,7.74,13.41
+172,23,POWE-N0-1,PowerBand Heavy - Navy,PowerBand Heavy,Heavy resistance loop band.,Navy,0,0,9.05,15.32
+173,23,POWE-O0-1,PowerBand Heavy - Orange,PowerBand Heavy,Heavy resistance loop band.,Orange,0,0,8.69,15.26
+174,23,BAND-X0,Band Set 5-Pack,Band Set 5-Pack,Set of 5 resistance bands - all levels.,0,0,0,18.54,30.06
+175,24,TRAI-G0,TrailBlazer MTB - Green,TrailBlazer MTB,"Hardtail mountain bike - 29"" wheels.",Green,0,0,500.1,837.46
+176,24,TRAI-N0,TrailBlazer MTB - Navy,TrailBlazer MTB,"Hardtail mountain bike - 29"" wheels.",Navy,0,0,494.54,783.14
+177,24,TRAI-B0-1,TrailBlazer MTB - Black,TrailBlazer MTB,"Hardtail mountain bike - 29"" wheels.",Black,0,0,502.46,829.38
+178,24,ROAD-R0,RoadRacer 700 - Red,RoadRacer 700,Carbon road bike - Shimano 105.,Red,0,0,897.34,1445.59
+179,24,ROAD-P0,RoadRacer 700 - Pink,RoadRacer 700,Carbon road bike - Shimano 105.,Pink,0,0,844.97,1359.19
+180,24,CITY-N0,CityCommuter - Navy,CityCommuter,Urban commuter bike with fenders and rack.,Navy,0,0,291.71,453.78
+181,24,CITY-P0,CityCommuter - Pink,CityCommuter,Urban commuter bike with fenders and rack.,Pink,0,0,282.39,456.72
+182,24,ECOR-P0,EcoRide E-Bike - Purple,EcoRide E-Bike,Electric assist city bike - 50km range.,Purple,0,0,783.27,1208.32
+183,24,ECOR-B0,EcoRide E-Bike - Black,EcoRide E-Bike,Electric assist city bike - 50km range.,Black,0,0,711.26,1230.14
+184,25,COMP-N0,CompactFold Chair - Navy,CompactFold Chair,Ultralight folding camp chair.,Navy,0,0,20.05,34.58
+185,25,COMP-P0,CompactFold Chair - Pink,CompactFold Chair,Ultralight folding camp chair.,Pink,0,0,19.6,34.78
+186,25,COMP-P0-1,CompactFold Chair - Purple,CompactFold Chair,Ultralight folding camp chair.,Purple,0,0,22.08,34.32
+187,25,LOUN-O0,LoungeMax - Orange,LoungeMax,Oversized padded camping chair.,Orange,0,0,31.95,56.09
+188,25,LOUN-T0,LoungeMax - Teal,LoungeMax,Oversized padded camping chair.,Teal,0,0,35.59,55.94
+189,26,SPIN-X0,SpinCycle Pro,SpinCycle Pro,Indoor cycling spin bike.,0,0,0,313.06,518
+190,26,ROWP-X0,RowPower 500,RowPower 500,Magnetic rowing machine.,0,0,0,364.25,602.3
+191,26,TREA-X0,TreadMax,TreadMax,Foldable treadmill - 16km/h max.,0,0,0,498.94,789.02
+192,27,MATC-R0,MatchDay Football - Red,MatchDay Football,FIFA-quality match football - size 5.,Red,0,0,17.42,30.96
+193,27,MATC-G0,MatchDay Football - Green,MatchDay Football,FIFA-quality match football - size 5.,Green,0,0,16.21,29.19
+194,27,MATC-O0,MatchDay Football - Orange,MatchDay Football,FIFA-quality match football - size 5.,Orange,0,0,16.53,28.99
+195,27,PROG-R0,ProGrip Basketball - Red,ProGrip Basketball,Indoor/outdoor basketball - size 7.,Red,0,0,14.57,23.95
+196,27,PROG-P0,ProGrip Basketball - Purple,ProGrip Basketball,Indoor/outdoor basketball - size 7.,Purple,0,0,15.71,25.03
+197,27,RALL-R0,RallyPoint Volleyball - Red,RallyPoint Volleyball,Soft-touch indoor volleyball.,Red,0,0,11.95,20.42
+198,27,RALL-Y0,RallyPoint Volleyball - Yellow,RallyPoint Volleyball,Soft-touch indoor volleyball.,Yellow,0,0,11.18,19.43
+199,28,ACES-B0,AceStrike Tennis - Black,AceStrike Tennis,Graphite tennis racket - 300g.,Black,0,0,48.53,87.26
+200,28,ACES-R0,AceStrike Tennis - Red,AceStrike Tennis,Graphite tennis racket - 300g.,Red,0,0,48.33,86.8
+201,28,SMAS-G0,SmashPro Badminton - Grey,SmashPro Badminton,Lightweight badminton racket.,Grey,0,0,24.7,40.4
+202,28,SMAS-N0,SmashPro Badminton - Navy,SmashPro Badminton,Lightweight badminton racket.,Navy,0,0,24.67,40.89
+203,28,SPIN-O0,SpinMaster Table Tennis - Orange,SpinMaster Table Tennis,Table tennis bat with rubber grip.,Orange,0,0,12.92,22.51
+204,28,SPIN-W0,SpinMaster Table Tennis - White,SpinMaster Table Tennis,Table tennis bat with rubber grip.,White,0,0,12.81,22.12
+205,29,SPEE-P0,SpeedRope Pro - Pink,SpeedRope Pro,Adjustable steel cable speed rope.,Pink,0,0,9.18,14.6
+206,29,SPEE-B0-1,SpeedRope Pro - Blue,SpeedRope Pro,Adjustable steel cable speed rope.,Blue,0,0,8.3,14.41
+207,29,SPEE-T0,SpeedRope Pro - Teal,SpeedRope Pro,Adjustable steel cable speed rope.,Teal,0,0,8.19,14.77
+208,29,WEIG-X0,WeightedRope,WeightedRope,Weighted jump rope for conditioning.,0,0,0,13.32,21.98
+209,30,CUSH-YS,CushionRun Sock - Yellow - S,CushionRun Sock,Cushioned running socks - 3-pack.,Yellow,S,W,7.77,14.43
+210,30,CUSH-BXL,CushionRun Sock - Blue - XL,CushionRun Sock,Cushioned running socks - 3-pack.,Blue,XL,W,7.32,14.73
+211,30,CUSH-GS,CushionRun Sock - Grey - S,CushionRun Sock,Cushioned running socks - 3-pack.,Grey,S,U,7.45,15.15
+212,30,CUSH-PM,CushionRun Sock - Pink - M,CushionRun Sock,Cushioned running socks - 3-pack.,Pink,M,U,7.82,14.74
+213,30,CUSH-GM,CushionRun Sock - Grey - M,CushionRun Sock,Cushioned running socks - 3-pack.,Grey,M,U,7.39,15.25
+214,30,ANKL-GXL,Ankle Sport Sock - Grey - XL,Ankle Sport Sock,Low-cut sport socks - 5-pack.,Grey,XL,U,6.34,13.45
+215,30,ANKL-BS,Ankle Sport Sock - Black - S,Ankle Sport Sock,Low-cut sport socks - 5-pack.,Black,S,M,6.79,13.09
+216,30,ANKL-YL,Ankle Sport Sock - Yellow - L,Ankle Sport Sock,Low-cut sport socks - 5-pack.,Yellow,L,U,5.86,12.67
+217,30,ANKL-GS,Ankle Sport Sock - Grey - S,Ankle Sport Sock,Low-cut sport socks - 5-pack.,Grey,S,M,6.21,13.3
+218,30,COMP-WS,CompressionSock - White - S,CompressionSock,Graduated compression socks - pair.,White,S,W,10.59,19.79
+219,30,COMP-WS-1,CompressionSock - White - S,CompressionSock,Graduated compression socks - pair.,White,S,U,9.22,19.21
+220,30,COMP-OS,CompressionSock - Orange - S,CompressionSock,Graduated compression socks - pair.,Orange,S,M,9.96,19.42
+221,31,RUNC-O0,RunCap Dry - Orange,RunCap Dry,Moisture-wicking running cap.,Orange,0,U,9.28,20.34
+222,31,RUNC-B0,RunCap Dry - Blue,RunCap Dry,Moisture-wicking running cap.,Blue,0,W,11.1,20.25
+223,31,RUNC-P0,RunCap Dry - Pink,RunCap Dry,Moisture-wicking running cap.,Pink,0,U,10.33,19.26
+224,31,RUNC-W0,RunCap Dry - White,RunCap Dry,Moisture-wicking running cap.,White,0,U,10.8,20.6
+225,31,BEAN-R0,Beanie Warm - Red,Beanie Warm,Thermal fleece beanie for winter.,Red,0,W,9.03,16.59
+226,31,BEAN-P0,Beanie Warm - Pink,Beanie Warm,Thermal fleece beanie for winter.,Pink,0,U,7.69,16.51
+227,31,BEAN-W0,Beanie Warm - White,Beanie Warm,Thermal fleece beanie for winter.,White,0,U,9.19,16.87
+228,31,TRUC-G0,TruckerCap - Green,TruckerCap,Classic mesh trucker cap.,Green,0,M,6.55,14.25
+229,31,TRUC-N0,TruckerCap - Navy,TruckerCap,Classic mesh trucker cap.,Navy,0,U,7.09,15.53
+230,31,TRUC-B0,TruckerCap - Blue,TruckerCap,Classic mesh trucker cap.,Blue,0,U,7.75,15.25
+231,32,SPOR-R0,SportVision Pro - Red,SportVision Pro,Polarized sport sunglasses - wraparound.,Red,0,U,24.19,44.92
+232,32,SPOR-B0,SportVision Pro - Black,SportVision Pro,Polarized sport sunglasses - wraparound.,Black,0,M,21.82,45.49
+233,32,SPOR-O0,SportVision Pro - Orange,SportVision Pro,Polarized sport sunglasses - wraparound.,Orange,0,W,25.24,45.95
+234,32,TRAI-B0-2,TrailEye - Black,TrailEye,Photochromic trail sunglasses.,Black,0,W,29.48,60.47
+235,32,TRAI-G0-1,TrailEye - Green,TrailEye,Photochromic trail sunglasses.,Green,0,W,33.09,61.23
+236,33,HYDR-P0,HydroFlask 750ml - Purple,HydroFlask 750ml,Insulated stainless steel bottle - 750ml.,Purple,0,0,15.26,28.9
+237,33,HYDR-B0,HydroFlask 750ml - Black,HydroFlask 750ml,Insulated stainless steel bottle - 750ml.,Black,0,0,13.4,29.57
+238,33,HYDR-G0,HydroFlask 750ml - Green,HydroFlask 750ml,Insulated stainless steel bottle - 750ml.,Green,0,0,15.73,31.35
+239,33,HYDR-T0,HydroFlask 750ml - Teal,HydroFlask 750ml,Insulated stainless steel bottle - 750ml.,Teal,0,0,15.02,28.94
+240,33,SQUE-Y0,SqueezeBottle 500ml - Yellow,SqueezeBottle 500ml,Soft squeeze sports bottle - 500ml.,Yellow,0,0,4.71,9.5
+241,33,SQUE-G0,SqueezeBottle 500ml - Green,SqueezeBottle 500ml,Soft squeeze sports bottle - 500ml.,Green,0,0,5.12,10.42
+242,33,SQUE-N0,SqueezeBottle 500ml - Navy,SqueezeBottle 500ml,Soft squeeze sports bottle - 500ml.,Navy,0,0,4.77,10.25
+243,33,SQUE-T0,SqueezeBottle 500ml - Teal,SqueezeBottle 500ml,Soft squeeze sports bottle - 500ml.,Teal,0,0,5.14,9.51
+244,33,SHAK-N0,ShakerPro 600ml - Navy,ShakerPro 600ml,Protein shaker bottle with mixer ball.,Navy,0,0,5.96,12.77
+245,33,SHAK-P0,ShakerPro 600ml - Pink,ShakerPro 600ml,Protein shaker bottle with mixer ball.,Pink,0,0,6.35,12.65
+246,33,SHAK-O0,ShakerPro 600ml - Orange,ShakerPro 600ml,Protein shaker bottle with mixer ball.,Orange,0,0,7.14,13.01
+247,34,PULS-N0,PulseBand - Navy,PulseBand,Basic fitness tracker with heart rate.,Navy,0,0,31.51,57.92
+248,34,PULS-B0,PulseBand - Blue,PulseBand,Basic fitness tracker with heart rate.,Blue,0,0,27.79,60.6
+249,34,PULS-T0,PulseBand - Teal,PulseBand,Basic fitness tracker with heart rate.,Teal,0,0,27.71,58.94
+250,34,PROW-N0,ProWatch GPS - Navy,ProWatch GPS,GPS sport watch with multi-sport modes.,Navy,0,0,125.66,251.27
+251,34,PROW-G0,ProWatch GPS - Grey,ProWatch GPS,GPS sport watch with multi-sport modes.,Grey,0,0,134.39,255.36
+252,34,PROW-G0-1,ProWatch GPS - Green,ProWatch GPS,GPS sport watch with multi-sport modes.,Green,0,0,133.94,260.87
+253,35,LIFT-YM,LiftGrip Gloves - Yellow - M,LiftGrip Gloves,Padded weightlifting gloves.,Yellow,M,W,11.5,23.42
+254,35,LIFT-GS,LiftGrip Gloves - Grey - S,LiftGrip Gloves,Padded weightlifting gloves.,Grey,S,M,9.98,21.99
+255,35,LIFT-GS-1,LiftGrip Gloves - Grey - S,LiftGrip Gloves,Padded weightlifting gloves.,Grey,S,U,12.7,23.45
+256,35,WINT-NS,WinterRun Gloves - Navy - S,WinterRun Gloves,Touchscreen winter running gloves.,Navy,S,M,15.71,30.15
+257,35,WINT-NS-1,WinterRun Gloves - Navy - S,WinterRun Gloves,Touchscreen winter running gloves.,Navy,S,W,16.88,30.91
+258,35,WINT-NM,WinterRun Gloves - Navy - M,WinterRun Gloves,Touchscreen winter running gloves.,Navy,M,U,14.71,31.29
+259,35,CYCL-PM,CycleGel Gloves - Pink - M,CycleGel Gloves,Gel-padded cycling gloves.,Pink,M,M,15.36,33.34
+260,35,CYCL-PS,CycleGel Gloves - Pink - S,CycleGel Gloves,Gel-padded cycling gloves.,Pink,S,W,18.14,35.31
+261,36,GYMD-B0,GymDuffel 40L - Blue,GymDuffel 40L,40-liter gym duffel bag.,Blue,0,0,19.86,43.2
+262,36,GYMD-W0,GymDuffel 40L - White,GymDuffel 40L,40-liter gym duffel bag.,White,0,0,21.09,43.89
+263,36,GYMD-O0,GymDuffel 40L - Orange,GymDuffel 40L,40-liter gym duffel bag.,Orange,0,0,22.3,45.55
+264,36,DRAW-W0,DrawstringPack - White,DrawstringPack,Lightweight drawstring gym bag.,White,0,0,6.27,13.2
+265,36,DRAW-G0,DrawstringPack - Grey,DrawstringPack,Lightweight drawstring gym bag.,Grey,0,0,6.85,13.07
+266,36,DRAW-P0,DrawstringPack - Purple,DrawstringPack,Lightweight drawstring gym bag.,Purple,0,0,5.82,12.41
+267,36,DRAW-N0,DrawstringPack - Navy,DrawstringPack,Lightweight drawstring gym bag.,Navy,0,0,6.46,12.94
+268,36,TRAV-R0-1,TravelRoller 70L - Red,TravelRoller 70L,70-liter rolling travel bag.,Red,0,0,47.37,103.99
+269,36,TRAV-B0-1,TravelRoller 70L - Blue,TravelRoller 70L,70-liter rolling travel bag.,Blue,0,0,53.55,103.79
+270,37,SWEA-O0,SweatBand Set - Orange,SweatBand Set,Headband + 2 wristbands set.,Orange,0,0,4.82,10.33
+271,37,SWEA-T0,SweatBand Set - Teal,SweatBand Set,Headband + 2 wristbands set.,Teal,0,0,4.94,9.57
+272,37,SWEA-Y0,SweatBand Set - Yellow,SweatBand Set,Headband + 2 wristbands set.,Yellow,0,0,4.63,9.58
+273,37,SWEA-G0,SweatBand Set - Green,SweatBand Set,Headband + 2 wristbands set.,Green,0,0,5.52,10.14
+274,37,WIDE-G0,WideBand Pro - Green,WideBand Pro,Wide moisture-wicking headband.,Green,0,0,3.98,7.82
+275,37,WIDE-P0,WideBand Pro - Purple,WideBand Pro,Wide moisture-wicking headband.,Purple,0,0,3.63,7.6
+276,37,WIDE-G0-1,WideBand Pro - Grey,WideBand Pro,Wide moisture-wicking headband.,Grey,0,0,3.87,7.89
