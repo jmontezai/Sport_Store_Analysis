@@ -128,20 +128,20 @@ A dedicated **Analytics** schema was created on top of the raw data (**Store**) 
 
 ## 📂 Project Structure
 
-    ```text
-    Dataset/
-    ├── Data/
-    ├── DataBase_Creation.sql
-    └── Views_Creation.sql
-    
-    SQL_Analysis/
-    
-    Power_BI/
-    ├── SportStore_Sales_Analysis.pbix
-    └── Images/
-    
-    README.md
-    ```
+```text
+Dataset/
+├── Data/
+├── DataBase_Creation.sql
+└── Views_Creation.sql
+
+SQL_Analysis/
+
+Power_BI/
+├── SportStore_Sales_Analysis.pbix
+└── Images/
+
+README.md
+```
 
 ## 👤 Author
 Project developed by João, focused on end-to-end data analysis and data-driven decision making.
